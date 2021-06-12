@@ -1,14 +1,12 @@
-#FUNCTION IN FUNCTION
+#FUNCTIONS IN FUNCTION of same variable (a)
 
 a=5
 def fun1():
-    b=10
+    a=10
     def fun2():
-        c=20
-        print(c)
-        print(c,b,a)
-    print(b,a)
-    print(b)
+        a=20
+        print(a)
+    print(a)
     fun2()
 fun1()
 print(a)
