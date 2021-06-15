@@ -1,9 +1,7 @@
 # RANDOM FUNCTION
 
 import random
-print(random.random())
-print(random.random())
-
-print(random.randint(1,6))
-print(random.randint(2,7))
-
+while True:
+    number=random.randint(1,6)
+    if number==6:
+        print("You can open your 1 player")
