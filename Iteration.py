@@ -1,3 +1,4 @@
-s={12,13,15,16}
-for i in s:
+#FOR ITERATION IN LIST
+l=[12,13,26]
+for i in l:
     print(i)
