@@ -6,3 +6,4 @@ for i in range(2,K):
         break
     else:
         print("Prime no.")
+        break
