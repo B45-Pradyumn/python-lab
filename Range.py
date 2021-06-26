@@ -1,8 +1,4 @@
-#RANGE FUN
-a=12
-print(a in [x for x in range (12)])
-print(a in [x for x in range (5)])
-print(a in [x for x in range (13)])
-print(a in [x for x in range (20)])
-
-
+def fun():
+    for x in range(22,23,24):
+        print(x)
+fun()        
