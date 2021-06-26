@@ -1,4 +1,5 @@
-#DEF FUN
-def fun(name,age=18):
-    print(name,age)
-fun('Rohit',25)
+def f1():
+    x=100
+    print(x)
+x=+1
+f1()
