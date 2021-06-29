@@ -1,4 +1,3 @@
-def fun():
-    for x in range(22,23,24):
-        print(x)
-fun()        
+#RANGE
+myTuple=[x for x in range(1,6,1)]
+print(myTuple)
