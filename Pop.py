@@ -1,5 +1,4 @@
-#Pop()
-s={100,300,200}
-k=s.pop()
-print(k)
-print(s)
+#PoP Fun
+myDict={1:"a",2:"b",3:"c",4:"d",5:"e"}
+myDict.pop(2)
+print(myDict)
